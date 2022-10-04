@@ -1,19 +1,14 @@
-@import 'reset';
-@import '_common';
+@import "reset";
+@import "_common";
 .containerclass {
-    padding: 40px 140px
+    padding: 40px 140px;
 }
 
-.navsec{
-    position: absolute;
-    top: 0;
-    left: 0;
+.navsec {
     padding: 40px 140px;
-    z-index: 9999;
     .menu {
         .menuin {
             display: flex;
-            justify-content: space-between;
             .logo {
                 img {
                     max-width: 23%;
@@ -48,8 +43,8 @@
         padding: 30px 150px;
         z-index: 1;
         border-bottom: 1px solid #ede9e9;
-        top:0;
-        left:0;
+        top: 0;
+        left: 0;
         .menunav {
             a {
                 color: #222 !important;
@@ -65,7 +60,7 @@
         }
     }
 }
-.active_menu{
+.active_menu {
     display: none;
 }
 header {
@@ -82,20 +77,16 @@ header {
         color: white;
     }
     &::before {
-        content: '\A';
+        content: "\A";
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(33, 33, 33, .8);
-        ;
+        background: rgba(33, 33, 33, 0.8);
         z-index: -1;
     }
     .body {
-        position: relative;
-        top: -31px;
-        left: -19px;
         .circle_me {
             width: 10%;
             position: absolute;
@@ -107,7 +98,7 @@ header {
                 border-radius: 50%;
             }
             &::after {
-                content: '';
+                content: "";
                 width: 100%;
                 height: 100%;
                 top: 0;
@@ -119,7 +110,7 @@ header {
         }
         .text {
             position: absolute;
-            top: 317px;
+            top: 36%;
             left: 36%;
             h1 {
                 font-size: 52px;
@@ -132,8 +123,8 @@ header {
         }
         .icons {
             position: absolute;
-            top: 413px;
-            left: 43%;
+            top: 60%;
+            left: 40%;
             width: 17%;
             ul {
                 display: flex;
@@ -143,7 +134,7 @@ header {
                     border-radius: 5px;
                     background: transparent;
                     padding: 7px 9px;
-                    transition: all .5s;
+                    transition: all 0.5s;
                     i {
                         font-size: 14px;
                     }
@@ -260,7 +251,7 @@ header {
             padding: 53px 30px;
             margin: 12px 13px;
             border-radius: 3%;
-            transition: all .5s;
+            transition: all 0.5s;
             &:hover {
                 box-shadow: 2px 6px 11px 5px #d2d6dc;
             }
@@ -282,14 +273,14 @@ header {
 }
 
 .section3 {
-    background-image: url('../img/bg2.jpg');
+    background-image: url("../img/bg2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
     &::before {
-        content: '';
+        content: "";
         background-color: #2222228f;
         position: absolute;
         top: 0;
@@ -375,7 +366,7 @@ header {
                 .bottom {
                     top: 18%;
                     opacity: 1;
-                    margin-top: -37px
+                    margin-top: -37px;
                 }
                 .center {
                     opacity: 1;
@@ -383,8 +374,8 @@ header {
             }
             .center {
                 opacity: 0;
-                -webkit-transition: all .5s;
-                transition: all .7s;
+                -webkit-transition: all 0.5s;
+                transition: all 0.7s;
                 z-index: 3;
                 text-align: center;
             }
@@ -404,8 +395,8 @@ header {
                 background: rgba(255, 255, 255, 0.8);
                 z-index: 2;
                 opacity: 0;
-                -webkit-transition: all .5s;
-                transition: all .5s;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
                 margin: 6px;
                 margin-top: 6px;
                 border-radius: 8px;
@@ -425,13 +416,13 @@ header {
 }
 
 .section5 {
-    background-image: url('../img/bg3.jpg');
+    background-image: url("../img/bg3.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     &::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
@@ -502,7 +493,6 @@ header {
             margin-top: 30px;
             .owl-dot {
                 background: transparent;
-                ;
                 width: 12px;
                 height: 12px;
                 border-radius: 50%;
@@ -532,7 +522,7 @@ header {
     .blog {
         display: flex;
         justify-content: space-between;
-    
+
         .item {
             border: 1px solid #ccc;
             position: relative;
@@ -540,14 +530,14 @@ header {
             border-radius: 10px;
             overflow: hidden;
             background: white;
-            .img{
+            .img {
                 overflow: hidden;
                 position: relative;
                 img {
                     width: 100%;
                     border-top-left-radius: 10px;
                     border-top-right-radius: 10px;
-                    transition: all .9s;
+                    transition: all 0.9s;
                     overflow: hidden;
                     &:hover {
                         transform: scale(1.1);
@@ -562,9 +552,8 @@ header {
                     border: 1px solid #eee;
                     position: absolute;
                     color: $base-color;
-                    top: 96%!important;
+                    top: 96% !important;
                     left: 42% !important;
-                    
                 }
             }
             p {
@@ -616,7 +605,6 @@ header {
     .head {
         display: flex;
         justify-content: space-around;
-        ;
     }
 }
 
@@ -695,7 +683,7 @@ header {
                 border-radius: 5px;
                 background: transparent;
                 padding: 7px 9px;
-                transition: all .5s;
+                transition: all 0.5s;
                 i {
                     font-size: 14px;
                 }
@@ -757,8 +745,8 @@ header {
 // }
 
 //770-992 qeder demey olar eynidi
-@media (max-width:992px) {
-    .navsec .menu .menuin .menunav{
+@media (max-width: 992px) {
+    .navsec .menu .menuin .menunav {
         display: none;
     }
     .containerclass {
@@ -788,10 +776,10 @@ header {
             }
         }
     }
-    .navsec{
+    .navsec {
         padding: 40px 20px;
         .containerclass {
-         padding: 0!important;
+            padding: 0 !important;
         }
         .menu {
             position: relative;
@@ -804,7 +792,7 @@ header {
                 z-index: 9;
                 background: white;
                 right: 0;
-               
+
                 ul {
                     display: flex;
                     flex-direction: column;
@@ -880,14 +868,14 @@ header {
             }
         }
     }
-    .activeburger{
+    .activeburger {
         span {
             width: 100%;
             height: 3px;
             background-color: $text1-color;
             position: absolute;
             border-radius: 2px;
-            transition: all .5s;
+            transition: all 0.5s;
             &:nth-child(1) {
                 top: 5px;
                 transform: rotate(133deg);
@@ -1038,7 +1026,7 @@ header {
             }
         }
     }
-    .active_menu{
+    .active_menu {
         display: block !important;
         .burger {
             width: 80px;
@@ -1068,23 +1056,22 @@ header {
     }
 }
 //418-770 qeder demey olar normaldi
-@media (max-width:768px) {
+@media (max-width: 768px) {
     header {
         .body {
-                .circle_me {
-                    width: 31%;
-                    left: 40%;
-                    top:158px;
-                }
+            .circle_me {
+                width: 31%;
+                left: 40%;
+                top: 158px;
+            }
             .text {
                 left: 15%;
             }
         }
     }
 
-
-    .navsec{
-        .burger{
+    .navsec {
+        .burger {
             width: 100px;
         }
     }
@@ -1147,14 +1134,13 @@ header {
     //         }
     //     }
     // }
-    
-    .active11{
+
+    .active11 {
         visibility: hidden;
         opacity: 0;
     }
-    .active12{
+    .active12 {
         visibility: inherit;
         opacity: 1;
     }
-
 }
