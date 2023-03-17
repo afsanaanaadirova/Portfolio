@@ -1065,6 +1065,13 @@ header .body .icons ul li:hover {
   font-size: 20px;
 }
 
+.footer-section {
+  background-image: url(../img/bg1.jpg);
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 992px) {
   .navsec .menu .menuin .menunav {
     display: none;
