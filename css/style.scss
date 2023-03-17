@@ -727,7 +727,20 @@ header {
         }
     }
 }
-
+.grid h1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.grid-item{
+    cursor: pointer;
+}
+.fas.fa-link{
+    padding-right: 12px;
+    font-size: 20px;
+}
+.fas.fa-file{
+    font-size: 20px;
+}
 // #respon {
 //     margin-top: 100px;
 //     padding: 0 4%;
