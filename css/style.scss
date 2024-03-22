@@ -67,6 +67,23 @@
 .active_menu {
     display: none;
 }
+.section6{
+    padding-top: 40px;
+}
+.sectionCv {
+    display: flex;
+    align-items: start;
+    img{
+        width: 800px;
+        height:800px;
+        object-fit: contain;
+    }
+    a{
+        border:1px solid ;
+        padding: 10px;
+        border-radius: 8px;
+    }
+}
 header {
     background-image: url("../img/bg1.jpg");
     background-size: cover;
